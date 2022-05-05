@@ -1340,6 +1340,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .projects__list {
+    justify-content: center;
     margin-bottom: 40px;
   }
 }
