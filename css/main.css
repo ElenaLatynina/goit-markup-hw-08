@@ -331,6 +331,10 @@ img {
   transform: translateX(0);
 }
 
+.mobile-__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
 .mobile__link {
   font-weight: 500;
   font-size: 40px;
@@ -341,10 +345,6 @@ img {
 
 .mobile__link--current {
   color: var(--accent-color);
-}
-
-.mobile-link:not(:last-child) {
-  margin-bottom: 32px;
 }
 
 .mobile__group {
