@@ -1129,8 +1129,10 @@ img {
   background-color: var(--dark-background-color);
 }
 
-.footer__contacts {
-  margin-bottom: 60px;
+@media screen and (max-width: 1199px) {
+  .footer__contacts {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
