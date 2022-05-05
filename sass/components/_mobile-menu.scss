@@ -53,6 +53,7 @@
    
 }
 .mobile__item:not(:last-child){
+    display: block;
     margin-bottom: 32px;
 }
 
