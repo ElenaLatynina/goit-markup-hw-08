@@ -331,7 +331,8 @@ img {
   transform: translateX(0);
 }
 
-.mobile-__item:not(:last-child) {
+.mobile__item:not(:last-child) {
+  display: block;
   margin-bottom: 32px;
 }
 
