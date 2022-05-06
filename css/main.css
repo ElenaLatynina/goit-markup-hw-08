@@ -1389,11 +1389,6 @@ img {
   border-radius: 4px;
 }
 
-.examples__list {
-  margin-top: -30px;
-  margin-left: -30px;
-}
-
 @media screen and (max-width: 767px) {
   .examples__list {
     display: inline-block;
@@ -1404,6 +1399,8 @@ img {
   .examples__list {
     display: flex;
     flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
   }
 }
 
